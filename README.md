@@ -1,4 +1,4 @@
-# PythonFileReaderTemplate
+# Python File Reader Template
 
 Template for a custom Python-based file reader that hooks into *OVITO* and can easily be shared with other users.
 
