@@ -1,3 +1,6 @@
+#### Python File Reader Name ####
+# Description of your Python-based file reader for OVITO.
+
 from ovito.io import FileReaderInterface
 from ovito.data import DataCollection
 from traits.api import *
