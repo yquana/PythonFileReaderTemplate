@@ -9,7 +9,16 @@ from traits.api import *
 class FileReaderName(FileReaderInterface):
     @staticmethod
     def detect(filename: str):
-        pass
+        try:
+            with open(filename, "r") as f:
+                line = f.readline()
+                line = line.strip("\n").replace(" ")
+                if line != "latt_traj":
+                    return False
+                else:
+                    return True
+        except:
+            return False
 
     def scan(self, filename: str, register_frame: Callable[..., None]):
         pass
