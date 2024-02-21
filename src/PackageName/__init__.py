@@ -21,7 +21,10 @@ class FileReaderName(FileReaderInterface):
             return False
 
     def scan(self, filename: str, register_frame: Callable[..., None]):
-        pass
+        with open(filename, "r") as f:
+            for i, line in enumerate(f):
+                if "Timestep" in line:
+                    register_frame(frame_info = i, label = line.strip())
 
     def parse(
         self, data: DataCollection, filename: str, parser_data: int, **kwargs: Any
