@@ -1,4 +1,4 @@
-## Python File Reader for OVITO
+## A Python File Reader for OVITO
 A custom file reader for OVITO.  
 File extension: .latt_traj  
 Each .latt_traj file consists of two parts: header and main body.  
