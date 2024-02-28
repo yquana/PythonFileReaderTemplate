@@ -1,6 +1,6 @@
 ## A Python File Reader for OVITO
 A custom file reader for OVITO.  
-File extension: .latt_traj  
+File extension: .lkmc  
 Each .latt_traj file consists of two parts: header and main body.  
 
 In the header region, the initial state of the simulation cell is written in the following format:  
