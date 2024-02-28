@@ -18,3 +18,7 @@ In the header region, the initial state of the simulation cell is written in the
 In the
 main body, the 
 Format of .lkmc files  
+
+
+## Benefit of using .lkmc
+.lkmc can significantly reduce the disk storage requirement for trajectory files in lattice KMC simulations.  
