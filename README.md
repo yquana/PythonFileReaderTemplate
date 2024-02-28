@@ -17,4 +17,4 @@ In the header region, the initial state of the simulation cell is written in the
 &nbsp;&nbsp;&nbsp;&nbsp; Line N + 8: number of sites that participated in the reaction  
 In the
 main body, the 
-Format of .latt_traj files  
+Format of .lkmc files  
